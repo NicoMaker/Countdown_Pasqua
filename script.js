@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById("anno").innerHTML = anno;
 });
 
-// Funzione per calcolare la data della Pasqua
+
 function calculateEasterDate(year) {
     let a = year % 19;
     let b = Math.floor(year / 100);
