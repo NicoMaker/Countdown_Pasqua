@@ -23,7 +23,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 1000);
 
     let anno = `
-<p>&copy; ${annoCorrente} Il Mio Sito di Pasqua</p>`
+    <footer>
+        <p>&copy; ${annoCorrente} Il Mio Sito di Pasqua</p>
+    </footer>`
     document.getElementById("anno").innerHTML = anno;
 });
 
